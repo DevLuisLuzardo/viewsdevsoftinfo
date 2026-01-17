@@ -13,7 +13,7 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <div className="w-full max-w-md bg-background-light dark:bg-background-dark min-h-screen flex flex-col relative overflow-hidden shadow-2xl">
+    <div className="w-full max-w-md mx-auto bg-background-light dark:bg-background-dark min-h-screen flex flex-col relative overflow-hidden shadow-2xl">
       <header className="pt-12 px-6 pb-4">
         <h1 className="text-2xl font-bold tracking-tight text-slate-800 dark:text-white">
           Interfaces de Diseño
@@ -60,15 +60,6 @@ export default function App() {
           {/* Add other cards here */}
         </div>
       </div>
-
-      <nav className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] ios-blur bg-white/80 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 rounded-full px-8 py-3 flex justify-around items-center shadow-xl">
-        <button className="text-slate-400 dark:text-slate-500">
-          <span className="material-icons-outlined">history</span>
-        </button>
-        <button className="text-slate-400 dark:text-slate-500">
-          <span className="material-icons-outlined">person_outline</span>
-        </button>
-      </nav>
 
       <button
         className="fixed top-4 right-4 bg-white dark:bg-slate-800 p-2 rounded-full shadow-lg border border-slate-200 dark:border-slate-700"
