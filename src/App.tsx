@@ -49,17 +49,19 @@ export default function App() {
               <div className="absolute bottom-8 left-2 right-8 h-4 bg-white/30 rounded-full"></div>
             </div>
           </Link>
+          <Link to="/iniciosesion" className="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-cyan-500">iniciosesion.tsx</span>
+            <h3 className="text-xs font-semibold mt-1 mb-3 line-clamp-2 h-8">Inicio de sesión con Google.</h3>
+            <div className="h-24 w-full rounded-lg bg-gradient-to-br from-purple-400 to-blue-400 relative overflow-hidden">
+              <div className="absolute bottom-2 left-2 right-2 h-4 bg-white/30 rounded-full"></div>
+              <div className="absolute bottom-8 left-2 right-8 h-4 bg-white/30 rounded-full"></div>
+            </div>
+          </Link>
           {/* Add other cards here */}
         </div>
       </div>
 
-      <nav className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] ios-blur bg-white/80 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 rounded-full px-8 py-3 flex justify-between items-center shadow-xl">
-        <button className="text-primary">
-          <span className="material-icons-outlined">dashboard</span>
-        </button>
-        <button className="text-slate-400 dark:text-slate-500">
-          <span className="material-icons-outlined">collections</span>
-        </button>
+      <nav className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] ios-blur bg-white/80 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 rounded-full px-8 py-3 flex justify-around items-center shadow-xl">
         <button className="text-slate-400 dark:text-slate-500">
           <span className="material-icons-outlined">history</span>
         </button>
